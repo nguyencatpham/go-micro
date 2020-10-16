@@ -12,9 +12,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/micro/go-micro/v3/api"
-	"github.com/micro/go-micro/v3/api/handler"
-	"github.com/micro/go-micro/v3/registry"
+	"github.com/nguyencatpham/go-micro/v3/api"
+	"github.com/nguyencatpham/go-micro/v3/api/handler"
+	"github.com/nguyencatpham/go-micro/v3/registry"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/go-micro/v3/api/resolver"
-	"github.com/micro/go-micro/v3/logger"
+	"github.com/nguyencatpham/go-micro/v3/api/resolver"
+	"github.com/nguyencatpham/go-micro/v3/logger"
 	"golang.org/x/net/publicsuffix"
 )
 

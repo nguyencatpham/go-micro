@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/micro/go-micro/v3/store"
+	"github.com/nguyencatpham/go-micro/v3/store"
 	"github.com/stretchr/testify/assert"
 )
 

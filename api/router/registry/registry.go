@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v3/api"
-	"github.com/micro/go-micro/v3/api/router"
-	"github.com/micro/go-micro/v3/logger"
-	"github.com/micro/go-micro/v3/metadata"
-	"github.com/micro/go-micro/v3/registry"
-	"github.com/micro/go-micro/v3/registry/cache"
-	util "github.com/micro/go-micro/v3/util/router"
+	"github.com/nguyencatpham/go-micro/v3/api"
+	"github.com/nguyencatpham/go-micro/v3/api/router"
+	"github.com/nguyencatpham/go-micro/v3/logger"
+	"github.com/nguyencatpham/go-micro/v3/metadata"
+	"github.com/nguyencatpham/go-micro/v3/registry"
+	"github.com/nguyencatpham/go-micro/v3/registry/cache"
+	util "github.com/nguyencatpham/go-micro/v3/util/router"
 )
 
 // endpoint struct, that holds compiled pcre

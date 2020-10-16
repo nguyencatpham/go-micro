@@ -15,9 +15,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v3/logger"
-	"github.com/micro/go-micro/v3/registry"
-	"github.com/micro/go-micro/v3/util/mdns"
+	"github.com/nguyencatpham/go-micro/v3/logger"
+	"github.com/nguyencatpham/go-micro/v3/registry"
+	"github.com/nguyencatpham/go-micro/v3/util/mdns"
 )
 
 const (

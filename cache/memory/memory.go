@@ -4,8 +4,8 @@ package memory
 import (
 	"sync"
 
-	"github.com/micro/go-micro/v3/cache"
-	"github.com/micro/go-micro/v3/errors"
+	"github.com/nguyencatpham/go-micro/v3/cache"
+	"github.com/nguyencatpham/go-micro/v3/errors"
 )
 
 type memoryCache struct {

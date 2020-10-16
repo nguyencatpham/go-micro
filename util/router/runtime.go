@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/micro/go-micro/v3/logger"
+	"github.com/nguyencatpham/go-micro/v3/logger"
 )
 
 var (

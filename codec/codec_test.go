@@ -4,14 +4,14 @@ import (
 	"io"
 	"testing"
 
-	"github.com/micro/go-micro/v3/codec"
-	"github.com/micro/go-micro/v3/codec/bytes"
-	"github.com/micro/go-micro/v3/codec/grpc"
-	"github.com/micro/go-micro/v3/codec/json"
-	"github.com/micro/go-micro/v3/codec/jsonrpc"
-	"github.com/micro/go-micro/v3/codec/proto"
-	"github.com/micro/go-micro/v3/codec/protorpc"
-	"github.com/micro/go-micro/v3/codec/text"
+	"github.com/nguyencatpham/go-micro/v3/codec"
+	"github.com/nguyencatpham/go-micro/v3/codec/bytes"
+	"github.com/nguyencatpham/go-micro/v3/codec/grpc"
+	"github.com/nguyencatpham/go-micro/v3/codec/json"
+	"github.com/nguyencatpham/go-micro/v3/codec/jsonrpc"
+	"github.com/nguyencatpham/go-micro/v3/codec/proto"
+	"github.com/nguyencatpham/go-micro/v3/codec/protorpc"
+	"github.com/nguyencatpham/go-micro/v3/codec/text"
 )
 
 type testRWC struct{}

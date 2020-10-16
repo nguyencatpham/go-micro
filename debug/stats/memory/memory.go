@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v3/debug/stats"
-	"github.com/micro/go-micro/v3/util/ring"
+	"github.com/nguyencatpham/go-micro/v3/debug/stats"
+	"github.com/nguyencatpham/go-micro/v3/util/ring"
 )
 
 type memoryStats struct {

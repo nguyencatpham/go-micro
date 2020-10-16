@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/micro/go-micro/v3/config"
-	"github.com/micro/go-micro/v3/config/secrets"
-	"github.com/micro/go-micro/v3/store/memory"
+	"github.com/nguyencatpham/go-micro/v3/config"
+	"github.com/nguyencatpham/go-micro/v3/config/secrets"
+	"github.com/nguyencatpham/go-micro/v3/store/memory"
 )
 
 type conf1 struct {

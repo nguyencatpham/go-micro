@@ -1,6 +1,6 @@
 # Log
 
-DEPRECATED: use github.com/micro/go-micro/v3/logger interface
+DEPRECATED: use github.com/nguyencatpham/go-micro/v3/logger interface
 
 This is the global logger for all micro based libraries.
 
@@ -10,8 +10,8 @@ Set the logger for micro libraries
 
 ```go
 // import go-micro/util/log
-import "github.com/micro/go-micro/util/log"
+import "github.com/nguyencatpham/go-micro/util/log"
 
-// SetLogger expects github.com/micro/go-micro/debug/log.Log interface
+// SetLogger expects github.com/nguyencatpham/go-micro/debug/log.Log interface
 log.SetLogger(mylogger)
 ```

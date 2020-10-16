@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/micro/go-micro/v3/registry/memory"
-	"github.com/micro/go-micro/v3/router"
+	"github.com/nguyencatpham/go-micro/v3/registry/memory"
+	"github.com/nguyencatpham/go-micro/v3/router"
 )
 
 func routerTestSetup() router.Router {

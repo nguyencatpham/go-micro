@@ -5,10 +5,10 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/micro/go-micro/v3/broker/http"
-	"github.com/micro/go-micro/v3/codec"
-	"github.com/micro/go-micro/v3/registry/mdns"
-	"github.com/micro/go-micro/v3/server"
+	"github.com/nguyencatpham/go-micro/v3/broker/http"
+	"github.com/nguyencatpham/go-micro/v3/codec"
+	"github.com/nguyencatpham/go-micro/v3/registry/mdns"
+	"github.com/nguyencatpham/go-micro/v3/server"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
 )

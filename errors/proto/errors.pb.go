@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.22.0
 // 	protoc        v3.11.4
-// source: github.com/micro/go-micro/errors/proto/errors.proto
+// source: github.com/nguyencatpham/go-micro/errors/proto/errors.proto
 
 package errors
 

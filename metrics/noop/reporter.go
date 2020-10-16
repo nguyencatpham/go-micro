@@ -3,7 +3,7 @@ package noop
 import (
 	"time"
 
-	"github.com/micro/go-micro/v3/metrics"
+	"github.com/nguyencatpham/go-micro/v3/metrics"
 )
 
 // Reporter is an implementation of metrics.Reporter:

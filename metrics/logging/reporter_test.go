@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/v3/metrics"
+	"github.com/nguyencatpham/go-micro/v3/metrics"
 
 	"github.com/stretchr/testify/assert"
 )

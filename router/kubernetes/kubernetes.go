@@ -4,7 +4,7 @@ package kubernetes
 import (
 	"fmt"
 
-	"github.com/micro/go-micro/v3/router"
+	"github.com/nguyencatpham/go-micro/v3/router"
 )
 
 // NewRouter returns an initialized kubernetes router
