@@ -1,4 +1,4 @@
-module github.com/nguyencatpham/go-micro/v3
+module github.com/nguyencatpham/go-micro
 
 go 1.13
 

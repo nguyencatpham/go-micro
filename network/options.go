@@ -2,12 +2,12 @@ package network
 
 import (
 	"github.com/google/uuid"
-	"github.com/nguyencatpham/go-micro/v3/network/tunnel"
-	tmucp "github.com/nguyencatpham/go-micro/v3/network/tunnel/mucp"
-	"github.com/nguyencatpham/go-micro/v3/proxy"
-	"github.com/nguyencatpham/go-micro/v3/proxy/mucp"
-	"github.com/nguyencatpham/go-micro/v3/router"
-	regRouter "github.com/nguyencatpham/go-micro/v3/router/registry"
+	"github.com/nguyencatpham/go-micro/network/tunnel"
+	tmucp "github.com/nguyencatpham/go-micro/network/tunnel/mucp"
+	"github.com/nguyencatpham/go-micro/proxy"
+	"github.com/nguyencatpham/go-micro/proxy/mucp"
+	"github.com/nguyencatpham/go-micro/router"
+	regRouter "github.com/nguyencatpham/go-micro/router/registry"
 )
 
 type Option func(*Options)

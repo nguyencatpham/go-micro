@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/network/transport"
-	"github.com/nguyencatpham/go-micro/v3/network/tunnel"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/network/transport"
+	"github.com/nguyencatpham/go-micro/network/tunnel"
 )
 
 var (

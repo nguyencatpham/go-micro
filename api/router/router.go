@@ -4,7 +4,7 @@ package router
 import (
 	"net/http"
 
-	"github.com/nguyencatpham/go-micro/v3/api"
+	"github.com/nguyencatpham/go-micro/api"
 )
 
 // Router is used to determine an endpoint for a request

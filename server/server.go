@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/nguyencatpham/go-micro/v3/codec"
-	"github.com/nguyencatpham/go-micro/v3/registry"
+	"github.com/nguyencatpham/go-micro/codec"
+	"github.com/nguyencatpham/go-micro/registry"
 )
 
 // Server is a simple micro server abstraction

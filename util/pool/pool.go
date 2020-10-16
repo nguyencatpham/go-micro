@@ -4,7 +4,7 @@ package pool
 import (
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/network/transport"
+	"github.com/nguyencatpham/go-micro/network/transport"
 )
 
 // Pool is an interface for connection pooling

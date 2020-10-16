@@ -2,7 +2,7 @@
 package mucp
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/server"
+	"github.com/nguyencatpham/go-micro/server"
 )
 
 var (

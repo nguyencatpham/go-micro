@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/registry"
-	"github.com/nguyencatpham/go-micro/v3/router"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/registry"
+	"github.com/nguyencatpham/go-micro/router"
 )
 
 var (

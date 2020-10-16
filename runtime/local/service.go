@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/build"
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/runtime"
-	"github.com/nguyencatpham/go-micro/v3/runtime/local/process"
-	proc "github.com/nguyencatpham/go-micro/v3/runtime/local/process/os"
+	"github.com/nguyencatpham/go-micro/build"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/runtime"
+	"github.com/nguyencatpham/go-micro/runtime/local/process"
+	proc "github.com/nguyencatpham/go-micro/runtime/local/process/os"
 )
 
 type service struct {

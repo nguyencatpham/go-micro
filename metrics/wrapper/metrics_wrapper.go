@@ -5,8 +5,8 @@ import (
 
 	"context"
 
-	"github.com/nguyencatpham/go-micro/v3/metrics"
-	"github.com/nguyencatpham/go-micro/v3/server"
+	"github.com/nguyencatpham/go-micro/metrics"
+	"github.com/nguyencatpham/go-micro/server"
 )
 
 // Wrapper provides a HandlerFunc for metrics.Reporter implementations:

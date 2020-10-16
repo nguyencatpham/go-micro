@@ -3,7 +3,7 @@ package registry
 import (
 	"sync"
 
-	"github.com/nguyencatpham/go-micro/v3/router"
+	"github.com/nguyencatpham/go-micro/router"
 )
 
 // tableWatcher implements routing table Watcher

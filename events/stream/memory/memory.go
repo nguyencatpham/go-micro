@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/nguyencatpham/go-micro/v3/events"
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/store"
-	"github.com/nguyencatpham/go-micro/v3/store/memory"
+	"github.com/nguyencatpham/go-micro/events"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/store"
+	"github.com/nguyencatpham/go-micro/store/memory"
 	"github.com/pkg/errors"
 )
 

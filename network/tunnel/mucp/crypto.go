@@ -6,7 +6,7 @@ import (
 	"crypto/rand"
 	"crypto/sha256"
 
-	"github.com/nguyencatpham/go-micro/v3/network/tunnel"
+	"github.com/nguyencatpham/go-micro/network/tunnel"
 	"github.com/oxtoacart/bpool"
 )
 

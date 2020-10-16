@@ -6,14 +6,14 @@ import (
 	"io"
 	"strings"
 
-	"github.com/nguyencatpham/go-micro/v3/client"
-	grpcc "github.com/nguyencatpham/go-micro/v3/client/grpc"
-	"github.com/nguyencatpham/go-micro/v3/codec"
-	"github.com/nguyencatpham/go-micro/v3/codec/bytes"
-	"github.com/nguyencatpham/go-micro/v3/errors"
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/proxy"
-	"github.com/nguyencatpham/go-micro/v3/server"
+	"github.com/nguyencatpham/go-micro/client"
+	grpcc "github.com/nguyencatpham/go-micro/client/grpc"
+	"github.com/nguyencatpham/go-micro/codec"
+	"github.com/nguyencatpham/go-micro/codec/bytes"
+	"github.com/nguyencatpham/go-micro/errors"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/proxy"
+	"github.com/nguyencatpham/go-micro/server"
 	"google.golang.org/grpc"
 )
 

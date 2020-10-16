@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nguyencatpham/go-micro/v3/api/resolver"
+	"github.com/nguyencatpham/go-micro/api/resolver"
 )
 
 func NewResolver(opts ...resolver.Option) resolver.Resolver {

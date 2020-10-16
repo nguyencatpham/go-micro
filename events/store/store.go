@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/events"
-	gostore "github.com/nguyencatpham/go-micro/v3/store
-	"github.com/nguyencatpham/go-micro/v3/store/memory"
+	"github.com/nguyencatpham/go-micro/events"
+	gostore "github.com/nguyencatpham/go-micro/store
+	"github.com/nguyencatpham/go-micro/store/memory"
 	"github.com/pkg/errors"
 )
 

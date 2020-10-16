@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"github.com/nguyencatpham/go-micro/v3/api/resolver"
-	"github.com/nguyencatpham/go-micro/v3/api/server/acme"
+	"github.com/nguyencatpham/go-micro/api/resolver"
+	"github.com/nguyencatpham/go-micro/api/server/acme"
 )
 
 type Option func(o *Options)

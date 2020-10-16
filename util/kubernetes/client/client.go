@@ -15,9 +15,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/runtime"
-	"github.com/nguyencatpham/go-micro/v3/util/kubernetes/api"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/runtime"
+	"github.com/nguyencatpham/go-micro/util/kubernetes/api"
 )
 
 var (

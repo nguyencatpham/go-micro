@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/nguyencatpham/go-micro/v3/network/transport"
-	"github.com/nguyencatpham/go-micro/v3/network/transport/grpc"
+	"github.com/nguyencatpham/go-micro/network/transport"
+	"github.com/nguyencatpham/go-micro/network/transport/grpc"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/network/tunnel"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/network/tunnel"
 )
 
 type tunListener struct {

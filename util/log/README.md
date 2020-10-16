@@ -1,6 +1,6 @@
 # Log
 
-DEPRECATED: use github.com/nguyencatpham/go-micro/v3/logger interface
+DEPRECATED: use github.com/nguyencatpham/go-micro/logger interface
 
 This is the global logger for all micro based libraries.
 

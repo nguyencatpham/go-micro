@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/api/router"
-	"github.com/nguyencatpham/go-micro/v3/client"
-	"github.com/nguyencatpham/go-micro/v3/client/grpc"
+	"github.com/nguyencatpham/go-micro/api/router"
+	"github.com/nguyencatpham/go-micro/client"
+	"github.com/nguyencatpham/go-micro/client/grpc"
 )
 
 var (

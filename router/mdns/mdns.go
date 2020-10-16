@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/router"
-	"github.com/nguyencatpham/go-micro/v3/util/mdns"
+	"github.com/nguyencatpham/go-micro/router"
+	"github.com/nguyencatpham/go-micro/util/mdns"
 )
 
 // NewRouter returns an initialized dns router

@@ -2,7 +2,7 @@
 package static
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/network/resolver"
+	"github.com/nguyencatpham/go-micro/network/resolver"
 )
 
 // Resolver returns a static list of nodes. In the event the node list

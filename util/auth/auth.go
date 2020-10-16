@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/nguyencatpham/go-micro/v3/auth"
-	"github.com/nguyencatpham/go-micro/v3/logger"
+	"github.com/nguyencatpham/go-micro/auth"
+	"github.com/nguyencatpham/go-micro/logger"
 )
 
 // Verify the auth credentials and refresh the auth token periodically

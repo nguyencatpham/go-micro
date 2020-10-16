@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/debug/log"
+	"github.com/nguyencatpham/go-micro/debug/log"
 )
 
 type logStream struct {

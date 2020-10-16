@@ -2,11 +2,11 @@
 package sql
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/codec/json"
-	"github.com/nguyencatpham/go-micro/v3/model"
-	"github.com/nguyencatpham/go-micro/v3/store"
-	"github.com/nguyencatpham/go-micro/v3/store/memory"
-	memsync "github.com/nguyencatpham/go-micro/v3/sync/memory"
+	"github.com/nguyencatpham/go-micro/codec/json"
+	"github.com/nguyencatpham/go-micro/model"
+	"github.com/nguyencatpham/go-micro/store"
+	"github.com/nguyencatpham/go-micro/store/memory"
+	memsync "github.com/nguyencatpham/go-micro/sync/memory"
 )
 
 type sqlModel struct {

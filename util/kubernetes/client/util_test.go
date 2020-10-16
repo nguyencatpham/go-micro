@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/nguyencatpham/go-micro/v3/runtime"
+	"github.com/nguyencatpham/go-micro/runtime"
 )
 
 func TestTemplates(t *testing.T) {

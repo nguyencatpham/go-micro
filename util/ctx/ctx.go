@@ -6,7 +6,7 @@ import (
 	"net/textproto"
 	"strings"
 
-	"github.com/nguyencatpham/go-micro/v3/metadata"
+	"github.com/nguyencatpham/go-micro/metadata"
 )
 
 func FromRequest(r *http.Request) context.Context {

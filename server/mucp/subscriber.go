@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/nguyencatpham/go-micro/v3/broker"
-	"github.com/nguyencatpham/go-micro/v3/network/transport"
-	"github.com/nguyencatpham/go-micro/v3/registry"
-	"github.com/nguyencatpham/go-micro/v3/server"
+	"github.com/nguyencatpham/go-micro/broker"
+	"github.com/nguyencatpham/go-micro/network/transport"
+	"github.com/nguyencatpham/go-micro/registry"
+	"github.com/nguyencatpham/go-micro/server"
 )
 
 const (

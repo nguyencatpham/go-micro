@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/nguyencatpham/go-micro/v3/build"
+	"github.com/nguyencatpham/go-micro/build"
 )
 
 type tarBuild struct{}

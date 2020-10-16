@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/network/transport"
-	"github.com/nguyencatpham/go-micro/v3/network/transport/memory"
+	"github.com/nguyencatpham/go-micro/network/transport"
+	"github.com/nguyencatpham/go-micro/network/transport/memory"
 )
 
 func testPool(t *testing.T, size int, ttl time.Duration) {

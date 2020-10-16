@@ -4,7 +4,7 @@ package noop
 import (
 	"errors"
 
-	"github.com/nguyencatpham/go-micro/v3/registry"
+	"github.com/nguyencatpham/go-micro/registry"
 )
 
 type noopRegistry struct{}

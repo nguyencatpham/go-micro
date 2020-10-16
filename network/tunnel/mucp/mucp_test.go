@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/network/transport"
-	"github.com/nguyencatpham/go-micro/v3/network/tunnel"
+	"github.com/nguyencatpham/go-micro/network/transport"
+	"github.com/nguyencatpham/go-micro/network/tunnel"
 )
 
 func testBrokenTunAccept(t *testing.T, tun tunnel.Tunnel, wait chan bool, wg *sync.WaitGroup) {

@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/store"
+	"github.com/nguyencatpham/go-micro/store"
 	bolt "go.etcd.io/bbolt"
 )
 

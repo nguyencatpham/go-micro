@@ -2,9 +2,9 @@
 package model
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/codec"
-	"github.com/nguyencatpham/go-micro/v3/store"
-	"github.com/nguyencatpham/go-micro/v3/sync"
+	"github.com/nguyencatpham/go-micro/codec"
+	"github.com/nguyencatpham/go-micro/store"
+	"github.com/nguyencatpham/go-micro/sync"
 )
 
 // Model provides an interface for data modelling

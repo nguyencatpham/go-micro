@@ -3,9 +3,9 @@ package kubernetes
 import (
 	"strings"
 
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/runtime"
-	"github.com/nguyencatpham/go-micro/v3/util/kubernetes/client"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/runtime"
+	"github.com/nguyencatpham/go-micro/util/kubernetes/client"
 )
 
 func (k *kubernetes) ensureNamepaceExists(ns string) error {

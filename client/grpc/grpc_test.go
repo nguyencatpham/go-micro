@@ -5,12 +5,12 @@ import (
 	"net"
 	"testing"
 
-	"github.com/nguyencatpham/go-micro/v3/client"
-	"github.com/nguyencatpham/go-micro/v3/errors"
-	"github.com/nguyencatpham/go-micro/v3/registry"
-	"github.com/nguyencatpham/go-micro/v3/registry/memory"
-	"github.com/nguyencatpham/go-micro/v3/router"
-	regRouter "github.com/nguyencatpham/go-micro/v3/router/registry"
+	"github.com/nguyencatpham/go-micro/client"
+	"github.com/nguyencatpham/go-micro/errors"
+	"github.com/nguyencatpham/go-micro/registry"
+	"github.com/nguyencatpham/go-micro/registry/memory"
+	"github.com/nguyencatpham/go-micro/router"
+	regRouter "github.com/nguyencatpham/go-micro/router/registry"
 	pgrpc "google.golang.org/grpc"
 	pb "google.golang.org/grpc/examples/helloworld/helloworld"
 )

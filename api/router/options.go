@@ -1,10 +1,10 @@
 package router
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/api/resolver"
-	"github.com/nguyencatpham/go-micro/v3/api/resolver/vpath"
-	"github.com/nguyencatpham/go-micro/v3/registry"
-	"github.com/nguyencatpham/go-micro/v3/registry/mdns"
+	"github.com/nguyencatpham/go-micro/api/resolver"
+	"github.com/nguyencatpham/go-micro/api/resolver/vpath"
+	"github.com/nguyencatpham/go-micro/registry"
+	"github.com/nguyencatpham/go-micro/registry/mdns"
 )
 
 type Options struct {

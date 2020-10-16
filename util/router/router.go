@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/registry"
-	"github.com/nguyencatpham/go-micro/v3/router"
+	"github.com/nguyencatpham/go-micro/registry"
+	"github.com/nguyencatpham/go-micro/router"
 )
 
 type apiRouter struct {

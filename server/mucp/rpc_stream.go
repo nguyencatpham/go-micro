@@ -6,8 +6,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/nguyencatpham/go-micro/v3/codec"
-	"github.com/nguyencatpham/go-micro/v3/server"
+	"github.com/nguyencatpham/go-micro/codec"
+	"github.com/nguyencatpham/go-micro/server"
 )
 
 // Implements the Streamer interface

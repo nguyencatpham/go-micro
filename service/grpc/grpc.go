@@ -1,12 +1,12 @@
 package grpc
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/client"
-	gclient "github.com/nguyencatpham/go-micro/v3/client/grpc"
-	"github.com/nguyencatpham/go-micro/v3/model"
-	"github.com/nguyencatpham/go-micro/v3/server"
-	gserver "github.com/nguyencatpham/go-micro/v3/server/grpc"
-	"github.com/nguyencatpham/go-micro/v3/service"
+	"github.com/nguyencatpham/go-micro/client"
+	gclient "github.com/nguyencatpham/go-micro/client/grpc"
+	"github.com/nguyencatpham/go-micro/model"
+	"github.com/nguyencatpham/go-micro/server"
+	gserver "github.com/nguyencatpham/go-micro/server/grpc"
+	"github.com/nguyencatpham/go-micro/service"
 )
 
 type grpcService struct {

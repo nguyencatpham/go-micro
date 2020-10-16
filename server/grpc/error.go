@@ -3,7 +3,7 @@ package grpc
 import (
 	"net/http"
 
-	"github.com/nguyencatpham/go-micro/v3/errors"
+	"github.com/nguyencatpham/go-micro/errors"
 	"google.golang.org/grpc/codes"
 )
 

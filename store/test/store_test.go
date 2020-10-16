@@ -12,10 +12,10 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/kr/pretty"
-	"github.com/nguyencatpham/go-micro/v3/store"
-	"github.com/nguyencatpham/go-micro/v3/store/cache"
-	"github.com/nguyencatpham/go-micro/v3/store/file"
-	"github.com/nguyencatpham/go-micro/v3/store/memory"
+	"github.com/nguyencatpham/go-micro/store"
+	"github.com/nguyencatpham/go-micro/store/cache"
+	"github.com/nguyencatpham/go-micro/store/file"
+	"github.com/nguyencatpham/go-micro/store/memory"
 )
 
 func fileStoreCleanup(db string, s store.Store) {

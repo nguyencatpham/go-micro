@@ -3,7 +3,7 @@ package registry
 import (
 	"testing"
 
-	"github.com/nguyencatpham/go-micro/v3/router"
+	"github.com/nguyencatpham/go-micro/router"
 )
 
 func testSetup() (*table, router.Route) {

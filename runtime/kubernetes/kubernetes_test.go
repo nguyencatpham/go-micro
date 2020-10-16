@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nguyencatpham/go-micro/v3/runtime"
+	"github.com/nguyencatpham/go-micro/runtime"
 	"github.com/stretchr/testify/assert"
 )
 

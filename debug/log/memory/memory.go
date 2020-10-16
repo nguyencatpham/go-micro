@@ -4,8 +4,8 @@ package memory
 import (
 	"fmt"
 
-	"github.com/nguyencatpham/go-micro/v3/debug/log"
-	"github.com/nguyencatpham/go-micro/v3/util/ring"
+	"github.com/nguyencatpham/go-micro/debug/log"
+	"github.com/nguyencatpham/go-micro/util/ring"
 )
 
 // memoryLog is default micro log

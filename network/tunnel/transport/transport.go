@@ -4,9 +4,9 @@ package transport
 import (
 	"context"
 
-	"github.com/nguyencatpham/go-micro/v3/network/transport"
-	"github.com/nguyencatpham/go-micro/v3/network/tunnel"
-	"github.com/nguyencatpham/go-micro/v3/network/tunnel/mucp"
+	"github.com/nguyencatpham/go-micro/network/transport"
+	"github.com/nguyencatpham/go-micro/network/tunnel"
+	"github.com/nguyencatpham/go-micro/network/tunnel/mucp"
 )
 
 type tunTransport struct {

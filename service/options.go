@@ -4,15 +4,15 @@ import (
 	"context"
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/broker"
-	"github.com/nguyencatpham/go-micro/v3/broker/http"
-	"github.com/nguyencatpham/go-micro/v3/client"
-	mucpClient "github.com/nguyencatpham/go-micro/v3/client/mucp"
-	"github.com/nguyencatpham/go-micro/v3/model"
-	"github.com/nguyencatpham/go-micro/v3/registry"
-	"github.com/nguyencatpham/go-micro/v3/registry/mdns"
-	"github.com/nguyencatpham/go-micro/v3/server"
-	mucpServer "github.com/nguyencatpham/go-micro/v3/server/mucp"
+	"github.com/nguyencatpham/go-micro/broker"
+	"github.com/nguyencatpham/go-micro/broker/http"
+	"github.com/nguyencatpham/go-micro/client"
+	mucpClient "github.com/nguyencatpham/go-micro/client/mucp"
+	"github.com/nguyencatpham/go-micro/model"
+	"github.com/nguyencatpham/go-micro/registry"
+	"github.com/nguyencatpham/go-micro/registry/mdns"
+	"github.com/nguyencatpham/go-micro/server"
+	mucpServer "github.com/nguyencatpham/go-micro/server/mucp"
 )
 
 type Options struct {

@@ -3,8 +3,8 @@ package logging
 import (
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/metrics"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/metrics"
 )
 
 const (

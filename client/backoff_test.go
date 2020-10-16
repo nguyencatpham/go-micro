@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/codec"
+	"github.com/nguyencatpham/go-micro/codec"
 )
 
 func TestBackoff(t *testing.T) {

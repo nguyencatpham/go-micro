@@ -2,8 +2,8 @@ package mud
 
 import (
 	"github.com/google/uuid"
-	"github.com/nguyencatpham/go-micro/v3/codec"
-	"github.com/nguyencatpham/go-micro/v3/model"
+	"github.com/nguyencatpham/go-micro/codec"
+	"github.com/nguyencatpham/go-micro/model"
 )
 
 type mudEntity struct {

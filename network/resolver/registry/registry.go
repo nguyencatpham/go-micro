@@ -2,9 +2,9 @@
 package registry
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/network/resolver"
-	"github.com/nguyencatpham/go-micro/v3/registry"
-	"github.com/nguyencatpham/go-micro/v3/registry/mdns"
+	"github.com/nguyencatpham/go-micro/network/resolver"
+	"github.com/nguyencatpham/go-micro/registry"
+	"github.com/nguyencatpham/go-micro/registry/mdns"
 )
 
 // Resolver is a registry network resolver

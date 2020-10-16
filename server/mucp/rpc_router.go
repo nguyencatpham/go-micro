@@ -18,9 +18,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/nguyencatpham/go-micro/v3/codec"
-	merrors "github.com/nguyencatpham/go-micro/v3/errors"
-	"github.com/nguyencatpham/go-micro/v3/server"
+	"github.com/nguyencatpham/go-micro/codec"
+	merrors "github.com/nguyencatpham/go-micro/errors"
+	"github.com/nguyencatpham/go-micro/server"
 )
 
 var (

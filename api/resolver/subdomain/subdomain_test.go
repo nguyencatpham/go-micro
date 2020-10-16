@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/nguyencatpham/go-micro/v3/api/resolver/vpath"
+	"github.com/nguyencatpham/go-micro/api/resolver/vpath"
 
 	"github.com/stretchr/testify/assert"
 )

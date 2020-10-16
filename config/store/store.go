@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/nguyencatpham/go-micro/v3/config"
-	"github.com/nguyencatpham/go-micro/v3/store"
+	"github.com/nguyencatpham/go-micro/config"
+	"github.com/nguyencatpham/go-micro/store"
 )
 
 // NewConfig returns new config

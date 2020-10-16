@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/nguyencatpham/go-micro/v3/config"
+	"github.com/nguyencatpham/go-micro/config"
 )
 
 type envConfig struct{}

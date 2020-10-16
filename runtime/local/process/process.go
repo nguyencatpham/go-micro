@@ -4,7 +4,7 @@ package process
 import (
 	"io"
 
-	"github.com/nguyencatpham/go-micro/v3/build"
+	"github.com/nguyencatpham/go-micro/build"
 )
 
 // Process manages a running process

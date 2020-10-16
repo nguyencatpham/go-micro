@@ -12,11 +12,11 @@ import (
 	"github.com/gobwas/httphead"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
-	"github.com/nguyencatpham/go-micro/v3/api"
-	"github.com/nguyencatpham/go-micro/v3/client"
-	raw "github.com/nguyencatpham/go-micro/v3/codec/bytes"
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/util/router"
+	"github.com/nguyencatpham/go-micro/api"
+	"github.com/nguyencatpham/go-micro/client"
+	raw "github.com/nguyencatpham/go-micro/codec/bytes"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/util/router"
 )
 
 // serveWebsocket will stream rpc back over websockets assuming json

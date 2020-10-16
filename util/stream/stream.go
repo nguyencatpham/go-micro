@@ -5,11 +5,11 @@ import (
 	"context"
 	"sync"
 
-	"github.com/nguyencatpham/go-micro/v3/client"
-	"github.com/nguyencatpham/go-micro/v3/client/mucp"
-	"github.com/nguyencatpham/go-micro/v3/codec"
-	"github.com/nguyencatpham/go-micro/v3/metadata"
-	"github.com/nguyencatpham/go-micro/v3/server"
+	"github.com/nguyencatpham/go-micro/client"
+	"github.com/nguyencatpham/go-micro/client/mucp"
+	"github.com/nguyencatpham/go-micro/codec"
+	"github.com/nguyencatpham/go-micro/metadata"
+	"github.com/nguyencatpham/go-micro/server"
 )
 
 type Stream interface {

@@ -2,12 +2,12 @@
 package mucp
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/client"
-	cmucp "github.com/nguyencatpham/go-micro/v3/client/mucp"
-	"github.com/nguyencatpham/go-micro/v3/model"
-	"github.com/nguyencatpham/go-micro/v3/server"
-	smucp "github.com/nguyencatpham/go-micro/v3/server/mucp"
-	"github.com/nguyencatpham/go-micro/v3/service"
+	"github.com/nguyencatpham/go-micro/client"
+	cmucp "github.com/nguyencatpham/go-micro/client/mucp"
+	"github.com/nguyencatpham/go-micro/model"
+	"github.com/nguyencatpham/go-micro/server"
+	smucp "github.com/nguyencatpham/go-micro/server/mucp"
+	"github.com/nguyencatpham/go-micro/service"
 )
 
 type mucpService struct {

@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/nguyencatpham/go-micro/v3/client"
-	cmucp "github.com/nguyencatpham/go-micro/v3/client/mucp"
-	"github.com/nguyencatpham/go-micro/v3/registry/memory"
-	"github.com/nguyencatpham/go-micro/v3/router"
-	"github.com/nguyencatpham/go-micro/v3/router/registry"
-	"github.com/nguyencatpham/go-micro/v3/server"
-	"github.com/nguyencatpham/go-micro/v3/server/mucp"
+	"github.com/nguyencatpham/go-micro/client"
+	cmucp "github.com/nguyencatpham/go-micro/client/mucp"
+	"github.com/nguyencatpham/go-micro/registry/memory"
+	"github.com/nguyencatpham/go-micro/router"
+	"github.com/nguyencatpham/go-micro/router/registry"
+	"github.com/nguyencatpham/go-micro/server"
+	"github.com/nguyencatpham/go-micro/server/mucp"
 )
 
 type testHandler struct{}

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/nguyencatpham/go-micro/v3/events"
+	"github.com/nguyencatpham/go-micro/events"
 	"github.com/stretchr/testify/assert"
 )
 

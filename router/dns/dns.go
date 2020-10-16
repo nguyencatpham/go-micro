@@ -5,7 +5,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/nguyencatpham/go-micro/v3/router"
+	"github.com/nguyencatpham/go-micro/router"
 )
 
 // NewRouter returns an initialized dns router

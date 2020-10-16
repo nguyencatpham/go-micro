@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strconv"
 
-	"github.com/nguyencatpham/go-micro/v3/runtime/local/process"
+	"github.com/nguyencatpham/go-micro/runtime/local/process"
 )
 
 func (p *Process) Exec(exe *process.Binary) error {

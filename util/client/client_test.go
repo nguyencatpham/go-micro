@@ -4,17 +4,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/nguyencatpham/go-micro/v3/broker"
-	bmemory "github.com/nguyencatpham/go-micro/v3/broker/memory"
-	"github.com/nguyencatpham/go-micro/v3/client"
-	"github.com/nguyencatpham/go-micro/v3/client/grpc"
-	tmemory "github.com/nguyencatpham/go-micro/v3/network/transport/memory"
-	rmemory "github.com/nguyencatpham/go-micro/v3/registry/memory"
-	"github.com/nguyencatpham/go-micro/v3/router"
-	rtreg "github.com/nguyencatpham/go-micro/v3/router/registry"
-	"github.com/nguyencatpham/go-micro/v3/server"
-	grpcsrv "github.com/nguyencatpham/go-micro/v3/server/grpc"
-	cw "github.com/nguyencatpham/go-micro/v3/util/client"
+	"github.com/nguyencatpham/go-micro/broker"
+	bmemory "github.com/nguyencatpham/go-micro/broker/memory"
+	"github.com/nguyencatpham/go-micro/client"
+	"github.com/nguyencatpham/go-micro/client/grpc"
+	tmemory "github.com/nguyencatpham/go-micro/network/transport/memory"
+	rmemory "github.com/nguyencatpham/go-micro/registry/memory"
+	"github.com/nguyencatpham/go-micro/router"
+	rtreg "github.com/nguyencatpham/go-micro/router/registry"
+	"github.com/nguyencatpham/go-micro/server"
+	grpcsrv "github.com/nguyencatpham/go-micro/server/grpc"
+	cw "github.com/nguyencatpham/go-micro/util/client"
 )
 
 type TestFoo struct {

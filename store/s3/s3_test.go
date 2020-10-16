@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/nguyencatpham/go-micro/v3/store"
+	"github.com/nguyencatpham/go-micro/store"
 	"github.com/stretchr/testify/assert"
 )
 

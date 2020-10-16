@@ -11,8 +11,8 @@ import (
 	"sync"
 
 	"github.com/hpcloud/tail"
-	"github.com/nguyencatpham/go-micro/v3/logger"
-	"github.com/nguyencatpham/go-micro/v3/runtime"
+	"github.com/nguyencatpham/go-micro/logger"
+	"github.com/nguyencatpham/go-micro/runtime"
 )
 
 // defaultNamespace to use if not provided as an option

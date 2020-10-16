@@ -1,7 +1,7 @@
 package mucp
 
 import (
-	"github.com/nguyencatpham/go-micro/v3/client"
+	"github.com/nguyencatpham/go-micro/client"
 )
 
 type message struct {

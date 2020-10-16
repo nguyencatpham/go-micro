@@ -6,15 +6,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nguyencatpham/go-micro/v3/auth"
-	"github.com/nguyencatpham/go-micro/v3/broker"
-	"github.com/nguyencatpham/go-micro/v3/broker/http"
-	"github.com/nguyencatpham/go-micro/v3/codec"
-	"github.com/nguyencatpham/go-micro/v3/debug/trace"
-	"github.com/nguyencatpham/go-micro/v3/network/transport"
-	thttp "github.com/nguyencatpham/go-micro/v3/network/transport/http"
-	"github.com/nguyencatpham/go-micro/v3/registry"
-	"github.com/nguyencatpham/go-micro/v3/registry/mdns"
+	"github.com/nguyencatpham/go-micro/auth"
+	"github.com/nguyencatpham/go-micro/broker"
+	"github.com/nguyencatpham/go-micro/broker/http"
+	"github.com/nguyencatpham/go-micro/codec"
+	"github.com/nguyencatpham/go-micro/debug/trace"
+	"github.com/nguyencatpham/go-micro/network/transport"
+	thttp "github.com/nguyencatpham/go-micro/network/transport/http"
+	"github.com/nguyencatpham/go-micro/registry"
+	"github.com/nguyencatpham/go-micro/registry/mdns"
 )
 
 type Options struct {

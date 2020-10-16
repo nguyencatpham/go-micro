@@ -4,7 +4,7 @@ package proxy
 import (
 	"context"
 
-	"github.com/nguyencatpham/go-micro/v3/server"
+	"github.com/nguyencatpham/go-micro/server"
 )
 
 // Proxy can be used as a proxy server for go-micro services

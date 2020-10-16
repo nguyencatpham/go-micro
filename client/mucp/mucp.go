@@ -8,15 +8,15 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/nguyencatpham/go-micro/v3/broker"
-	"github.com/nguyencatpham/go-micro/v3/client"
-	"github.com/nguyencatpham/go-micro/v3/codec"
-	raw "github.com/nguyencatpham/go-micro/v3/codec/bytes"
-	"github.com/nguyencatpham/go-micro/v3/errors"
-	"github.com/nguyencatpham/go-micro/v3/metadata"
-	"github.com/nguyencatpham/go-micro/v3/network/transport"
-	"github.com/nguyencatpham/go-micro/v3/util/buf"
-	"github.com/nguyencatpham/go-micro/v3/util/pool"
+	"github.com/nguyencatpham/go-micro/broker"
+	"github.com/nguyencatpham/go-micro/client"
+	"github.com/nguyencatpham/go-micro/codec"
+	raw "github.com/nguyencatpham/go-micro/codec/bytes"
+	"github.com/nguyencatpham/go-micro/errors"
+	"github.com/nguyencatpham/go-micro/metadata"
+	"github.com/nguyencatpham/go-micro/network/transport"
+	"github.com/nguyencatpham/go-micro/util/buf"
+	"github.com/nguyencatpham/go-micro/util/pool"
 )
 
 type rpcClient struct {
